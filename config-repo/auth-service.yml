@@ -22,6 +22,6 @@ spring:
     show-sql: true
   h2:
   	console:
+      path:/h2
   		settings:
   			web-allow-others:true
-  		path:/h2
