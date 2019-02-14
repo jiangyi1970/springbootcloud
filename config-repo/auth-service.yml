@@ -20,8 +20,3 @@ spring:
     driver-class-name: org.h2.Driver
   jpa:
     show-sql: true
-  h2:
-  	console:
-      path:/h2
-  		settings:
-  			web-allow-others:true
