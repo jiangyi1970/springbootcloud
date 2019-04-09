@@ -22,9 +22,9 @@ security:
       scope: server
       
 #公共配置与profiles选择无关
-# mybatis:
-#  typeAliasesPackage: cn.zhangxd.svcc.entity
-#  mapperLocations: classpath:cn/zhangxd/svcc/entity/*.xml
+ mybatis:
+  typeAliasesPackage: cn.zhangxd.svcc.entity
+  mapperLocations: classpath:cn/zhangxd/svcc/entity/*.xml
 
 
 ---
