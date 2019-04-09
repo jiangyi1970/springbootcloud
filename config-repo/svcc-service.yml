@@ -13,7 +13,7 @@ security:
   user:
     name: user
     password: password
- oauth2:
+  oauth2:
     client:
       clientId: svcc-service
       clientSecret: ${security.user.password}
