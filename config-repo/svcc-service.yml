@@ -60,8 +60,8 @@ spring:
         password: cdzy_jc_2014
         driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
       cluster:
-        url: jdbc:sqlserver://218.75.139.57:1433;databaseName=website
-        username: qgjc
-        password: "20170414#jisb#*)@"
+        url: jdbc:sqlserver://218.75.139.57:1433;databaseName=xk
+        username: sa
+        password: sa1234
         driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
  
