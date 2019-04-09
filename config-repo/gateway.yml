@@ -1,9 +1,9 @@
 server:
   port: 8060
-  ssl:
-    key-store: classpath:qiye.cdzy.cn.jks
-    key-store-password: Cdzy@2018
-    keyStoreType: JKS
+#  ssl:
+#    key-store: classpath:qiye.cdzy.cn.jks
+#    key-store-password: Cdzy@2018
+#    keyStoreType: JKS
 
 management:
   security:
