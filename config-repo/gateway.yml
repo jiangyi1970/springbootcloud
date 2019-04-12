@@ -5,9 +5,6 @@ server:
     key-store-password: Cdzy@2018
     keyStoreType: JKS
 
-http:
-  port: 8000
-
 management:
   security:
     enabled: false
