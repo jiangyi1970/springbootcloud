@@ -7,6 +7,7 @@ https:
     key-store: classpath:qiye.cdzy.cn.jks
     key-store-password: Cdzy@2018
     keyStoreType: JKS
+    key-password: Cdzy@2018
     
 management:
   security:
