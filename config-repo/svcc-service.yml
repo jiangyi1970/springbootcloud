@@ -60,10 +60,7 @@ pagehelper:
 mybatis:
   typeAliasesPackage: com.cdzy.entity
   mapperLocations: classpath:com/cdzy/entity/*.xml
-
-
----
-
+  
 #开发配置
 spring:
 #  profiles: dev
