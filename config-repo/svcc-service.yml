@@ -20,7 +20,7 @@ security:
       accessTokenUri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/oauth/token
       grant-type: client_credentials
       scope: server
-      
+
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -48,9 +48,9 @@ spring:
     username: jwbrowse
     password: cdzy_jc_2014
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-      
+    
 pagehelper:
-    helperDialect: sqlserver
-    reasonable: true
-    supportMethodsArguments: true
-    params: count=countSql
+  helperDialect: sqlserver
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
