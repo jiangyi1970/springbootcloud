@@ -49,8 +49,8 @@ spring:
     password: cdzy_jc_2014
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
       
-pagehelper:
-  helperDialect: sqlserver
-  reasonable: true
-  supportMethodsArguments: true
-  params: count=countSql
+  pagehelper:
+    helperDialect: sqlserver
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
