@@ -49,7 +49,7 @@ spring:
     password: cdzy_jc_2014
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
       
-  pagehelper:
+pagehelper:
     helperDialect: sqlserver
     reasonable: true
     supportMethodsArguments: true
