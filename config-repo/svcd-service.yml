@@ -44,9 +44,9 @@ spring:
     filters: stat,wall,log4j
       # 通过connectProperties属性来打开mergeSql功能；慢SQL记录 
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-    url: jdbc:sqlserver://192.169.1.22:1433;databaseName=cdzy_jwgl1db
-    username: jwbrowse
-    password: cdzy_jc_2014
+    url: jdbc:sqlserver://192.168.140.93:1433;databaseName=Dborg
+    username: sa
+    password: sa1234
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     
 pagehelper:
