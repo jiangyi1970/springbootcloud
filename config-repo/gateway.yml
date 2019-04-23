@@ -41,3 +41,6 @@ zuul:
     svcc-service:
       path: /svcc/**
       sensitiveHeaders:
+    svcd-service:
+      path: /svcd/**
+      sensitiveHeaders:
