@@ -48,6 +48,9 @@ spring:
     username: jwbrowse
     password: cdzy_jc_2014
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+mybatis:
+  mapper-locations: "classpath*:cn.cdzy.dao/*.xml"
     
 pagehelper:
   helperDialect: sqlserver
