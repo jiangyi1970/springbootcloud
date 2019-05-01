@@ -48,7 +48,10 @@ spring:
     username: sa
     password: sa1234
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    
+
+mybatis:
+  mapper-locations: "classpath*:cn.cdzy.dao/*.xml" 
+  
 pagehelper:
   helperDialect: sqlserver
   reasonable: true
