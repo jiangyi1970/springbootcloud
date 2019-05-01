@@ -22,6 +22,11 @@ security:
       scope: server
 
 spring:
+  rabbitmq:
+    host: 192.169.1.189
+    port: 5673
+    username: guest
+    password: guest
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     initialSize: 5
