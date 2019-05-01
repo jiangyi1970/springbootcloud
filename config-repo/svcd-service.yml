@@ -50,7 +50,7 @@ spring:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
 
 mybatis:
-  mapper-locations: "classpath*:cn.cdzy.dao/*.xml" 
+  mapper-locations: "classpath*:cn/cdzy/dao/*.xml" 
   
 pagehelper:
   helperDialect: sqlserver
