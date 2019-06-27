@@ -44,6 +44,9 @@ zuul:
     svce-service:
       path: /svce/**
       sensitiveHeaders:
+    svcy-service:
+      path: /svcy/**
+      sensitiveHeaders:
     svcz-service:
       path: /svcz/**
       sensitiveHeaders:
