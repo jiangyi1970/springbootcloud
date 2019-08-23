@@ -45,8 +45,8 @@ spring:
       # 通过connectProperties属性来打开mergeSql功能；慢SQL记录 
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
     url: jdbc:sqlserver://192.169.1.22:1433;databaseName=cdzy_rlgldb
-    username: sa
-    password: "20170414#jisb#*)@"
+    username: rljc
+    password: rljc
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
 
 mybatis:
