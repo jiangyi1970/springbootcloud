@@ -46,7 +46,7 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
     url: jdbc:sqlserver://192.169.1.22:1433;databaseName=cdzy_jwgl1db
     username: jwbrowse
-    password: cdzy_jc_2014
+    password: 12
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     
 pagehelper:
