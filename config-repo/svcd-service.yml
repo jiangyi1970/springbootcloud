@@ -46,7 +46,7 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
     url: jdbc:sqlserver://192.168.140.93:1433;databaseName=DBorg
     username: sa
-    password: sa1234
+    password: 6
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
 
 mybatis:
