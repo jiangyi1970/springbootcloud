@@ -46,7 +46,7 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
     url: jdbc:sqlserver://218.75.139.57:1433;databaseName=website
     username: qgjc
-    password: "20170414#jisb#*)@"
+    password: 17
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
 
 mybatis:
